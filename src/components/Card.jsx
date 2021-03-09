@@ -62,7 +62,7 @@ function Card(props) {
                 <span>HP: {hp}</span>
               </div>
               <div className="progress-line hp" id ="line1">
-                <span style={{"width": hp * 1.5}}></span>
+                <span style={{"width": hp * 1.4}}></span>
               </div>
             </div>
             <div className="bar">
@@ -70,7 +70,7 @@ function Card(props) {
                 <span>ATTACK: {attack}</span>
               </div>
               <div className="progress-line attack" id ="line2">
-                <span style={{"width": attack * 1.5}}></span>
+                <span style={{"width": attack * 1.4}}></span>
               </div>
             </div>
             <div className="bar">
@@ -79,7 +79,7 @@ function Card(props) {
               </div>
               <div className="progress-line defense" id ="line3">
 
-                <span style={{"width": defense * 1.5}}></span>
+                <span style={{"width": defense * 1.4}}></span>
               </div>
             </div>
             <div className="bar">
@@ -87,7 +87,7 @@ function Card(props) {
                 <span>SP.ATTACK: {sattack}</span>
               </div>
               <div className="progress-line sattack" id ="line4">
-                <span style={{"width": sattack * 1.5}}></span>
+                <span style={{"width": sattack * 1.4}}></span>
               </div>
             </div>
             <div className="bar">
@@ -96,7 +96,7 @@ function Card(props) {
               </div>
               <div className="progress-line sdefense" id ="line5">
 
-                <span style={{"width": sdefense * 1.5}}></span>
+                <span style={{"width": sdefense * 1.4}}></span>
               </div>
             </div>
             <div class="bar">
@@ -105,7 +105,7 @@ function Card(props) {
               </div>
               <div className="progress-line speed" id ="line6">
 
-                <span style={{"width": speed * 1.5}}></span>
+                <span style={{"width": speed * 1.4}}></span>
               </div>
             </div>
           </div>

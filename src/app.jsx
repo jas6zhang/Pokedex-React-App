@@ -56,7 +56,7 @@ function App() {
           setAbility(result.abilities[0].ability.name);
           setSprite(link.concat(result.id, ".png"));
 
-          setHeight(result.height)
+          setHeight(result.height/10)
           setWeight (result.weight/10)
 
           document.getElementById('line1').classList.remove("progress-line");
