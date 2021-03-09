@@ -10,22 +10,22 @@ import "./styles.css"
 function App() {
 
   const [query, setQuery] = useState('');
-  const [pokemon, setPokemon] = useState('');
-  const [name, setName] = useState('');
-  const [id, setId] = useState('');
-  const [type, setType] = useState('');
+  const [pokemon, setPokemon] = useState('Pikachu');
+  const [name, setName] = useState('Pikachu');
+  const [id, setId] = useState('25');
+  const [type, setType] = useState('electric');
   const [type2, setType2] = useState('');
-  const [sprite, setSprite] = useState('');
-  const [ability, setAbility] = useState('');
-  const [statsHP, setStatsHP] = useState('');
-  const [statsAttack, setStatsAttack] = useState('');
-  const [statsDefense, setStatsDefense] = useState('');
-  const [statsSAttack, setStatsSAttack] = useState('');
-  const [statsSDefense, setStatsSDefense] = useState('');
-  const [statsSpeed, setStatsSpeed] = useState('');
+  const [sprite, setSprite] = useState('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png');
+  const [ability, setAbility] = useState('static');
+  const [statsHP, setStatsHP] = useState('35');
+  const [statsAttack, setStatsAttack] = useState('55');
+  const [statsDefense, setStatsDefense] = useState('40');
+  const [statsSAttack, setStatsSAttack] = useState('50');
+  const [statsSDefense, setStatsSDefense] = useState('50');
+  const [statsSpeed, setStatsSpeed] = useState('90');
 
-  const [height, setHeight] = useState('');
-  const [weight, setWeight] = useState('');
+  const [height, setHeight] = useState('4');
+  const [weight, setWeight] = useState('6');
 
   function search(target) {
     const link = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/";
@@ -57,7 +57,7 @@ function App() {
           setSprite(link.concat(result.id, ".png"));
 
           setHeight(result.height)
-          setWeight (result.weight)
+          setWeight (result.weight/10)
 
           document.getElementById('line1').classList.remove("progress-line");
           document.getElementById('line2').classList.remove("progress-line");

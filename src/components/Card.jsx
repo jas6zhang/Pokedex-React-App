@@ -54,8 +54,8 @@ function Card(props) {
         </div>
 
         <h1 className = "ability"> Ability: {ability.charAt(0).toUpperCase() + ability.slice(1)}</h1>
-        <h2 className = "ability"> Height: {height}m</h2>
-        <h2 className = "ability"> Weight: {weight / 10}kg</h2>
+        <h2 className = "ability"> Height: {height} m</h2>
+        <h2 className = "ability"> Weight: {weight} kg</h2>
         <div className="skill-bars">
             <div className="bar">
               <div className="info">
