@@ -1,5 +1,4 @@
-# PikaDex © 
-<img src="/public/Pikachu.png" alt="My cool logo"/>
+# PikaDex © <img src="/public/Pikachu.png" alt="My cool logo"/>
 
 ## The perfect Pokedex for Pokemon enthuasists! 
 
