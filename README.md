@@ -8,3 +8,5 @@
 #### Revisit your childhood and search for your favourite Pokemon, from gen 1 all the way to gen 8.
 
 #### Complete with battle statistics for competitive battlers, and interactive type logos. 
+
+## To use, download folder, cd to directory, and npm start. 
