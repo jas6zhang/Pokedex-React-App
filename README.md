@@ -1,7 +1,7 @@
 # PikaDex © 
 <img src="/public/Pikachu.png" alt="My cool logo"/>
 
-## The perfect Pokedex for Pokemon enthuasists! 
+## The perfect Pokedex for Pokemon enthuasists! To use, download folder, cd to directory, and npm start. 
 
 <img src="/public/Venusaur.png" alt="My cool logo"/>
 
@@ -9,4 +9,4 @@
 
 #### Complete with battle statistics for competitive battlers, and interactive type logos. 
 
-## To use, download folder, cd to directory, and npm start. 
+
