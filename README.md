@@ -1,7 +1,7 @@
 # PikaDex © 
 <img src="/public/Pikachu.png" alt="My cool logo"/>
 
-## The perfect Pokedex for Pokemon enthuasists! To use, download folder, cd to directory, npm i to install packages, and begin with npm start. 
+## The perfect Pokedex for Pokemon enthuasists! To use, download folder, cd to directory, npm i to install packages, and begin with npm start. Or check it out at https://mighty-falls-09576.herokuapp.com/!
 
 <img src="/public/Venusaur.png" alt="My cool logo"/>
 
