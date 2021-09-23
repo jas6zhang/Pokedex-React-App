@@ -11,7 +11,8 @@ Complete with battle statistics for competitive battlers, and interactive type l
   ```sh
   npm i
   ```
-4. * To start: ```sh
+4. * To start: 
+  ```sh
   npm start
   ```
 
