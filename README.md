@@ -7,11 +7,11 @@ Complete with battle statistics for competitive battlers, and interactive type l
 ## Getting Started
 1. Clone project
 2. CD to directory
-3. Install packages: 
+3. * Install packages: 
   ```sh
   npm i
   ```
-4. To start: ```sh
+4. * To start: ```sh
   npm start
   ```
 
