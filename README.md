@@ -1,12 +1,25 @@
 # PikaDex © 
 
-### The perfect Pokedex for Pokemon enthuasists! 
-To use: Download folder, cd to directory, 'npm i' to install packages, and begin with npm start. Or check it out at https://mighty-falls-09576.herokuapp.com/! 
+### The perfect Pokedex for Pokemon enthuasists! Revisit your childhood and search for your favourite Pokemon, from gen 1 all the way to gen 8.
+
+Complete with battle statistics for competitive battlers, and interactive type logos. 
+
+## Getting Started
+1. Clone project
+2. CD to directory
+3. 
+* 'npm i' to install packages
+  ```sh
+  npm start
+  ```
 
 <img src="/public/Venusaur.png" alt="My cool logo"/>
 
-#### Revisit your childhood and search for your favourite Pokemon, from gen 1 all the way to gen 8.
+Or check it out at https://mighty-falls-09576.herokuapp.com/! 
 
-#### Complete with battle statistics for competitive battlers, and interactive type logos. 
+## Usage
+
+Type in the Pokemon and use it to guide your team to victory! 
+
 
 
